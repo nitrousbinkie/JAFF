@@ -1,0 +1,58 @@
+
+.fullscreen
+{
+    position:fixed;
+    top:0px;
+    left:0px;
+    right:0px;
+    bottom:0px;
+}
+
+.mask {
+    background-color: rgba(0,0,0,0.85);
+    display:none;
+}
+
+.topbar
+{
+    background-color:rgba(0,0,0,0.75);
+    color:white;
+    height:50px;
+    line-height:50px;
+    text-align:center;   
+    position:fixed;
+    top:0px;
+    left:0px;
+    right:0px;
+    text-transform:uppercase;
+}
+
+.messageBox
+{
+    position:fixed;
+    top:200px;
+    left:50%;
+    width:250px;
+    margin-left:-125px;
+    border:1px solid white;
+    border-radius:10px;
+    color:white;
+    background-color:rgba(0,0,0,0.2);
+    padding:20px;
+}
+.messageBox button
+{
+
+}
+.messageBox__heading
+{
+    font-size:large;
+}
+.messageBox__body
+{
+    padding-top:5px;
+}
+.messageBox__buttons
+{
+    text-align:center;
+}

@@ -1,0 +1,44 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#mainContainer {
+    background-image: url(Assets/Backgrounds/bg01.jpg);
+    background-size: cover;
+}
+
+#loginMask
+{
+    background-image:url(Assets/Backgrounds/bg01_Blur.jpg);
+    background-size:cover;
+}
+#loadMask
+{
+    background-color:black;
+}
+#loginBox
+{
+    position:fixed;
+    top:150px;
+    left:50%;
+    margin-left:-100px;       
+    width:200px;
+    text-align:center;    
+}
+#loginBox div
+{
+    padding:10px;
+}
+#loginBox input
+{
+    background-color:transparent;
+    border:none;
+    border-bottom:1px solid white;
+    color:white;
+}
+#loginBox input:focus
+{
+    outline:none;
+}

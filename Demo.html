@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Dash-Bored!</title>
+        
+        <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+        
+        <link rel="stylesheet" href="JAFF/CSS/Framework.css"/>        
+        <link rel="stylesheet" href="Layout.css"/>
+    </head>
+    <body>
+
+        <div id="mainContainer" class="fullscreen">
+
+        </div>
+
+        <div id="loginMask" class="fullscreen">
+            <div id="loginBox" class="messageBox">
+                <div>Hello There!</div>
+                <div><input type="text" id="txtUsername" placeholder="Username" value="JamesSumner"/></div>
+                <div><input type="password" id="txtPassword" placeholder="Password" value="Password1"/></div>
+                <div><input type="text" id="txtClientId" placeholder="Client Id" value="11416"/></div>
+                <div><input type="text" id="txtAccessToken" placeholder="Access Token" value="51A99383-80A7-4715-BB64-749635C2720B"/></div>
+                <div><button id="btnLogin">Login</button></div>
+            </div>
+        </div>
+
+        <div class="topbar">
+            Dash-Bored!
+        </div>
+
+        <div id="messageBoxMask" class="mask fullscreen">
+            <div id="messageBox" class="messageBox">
+                <div class="messageBox__heading">
+                    <span id="messageBoxHeading"></span>
+                </div>
+                <div class="messageBox__body"><hr /></div>
+                <div class="messageBox__body"><span id="messageBoxBody"></span></div>
+                <div class="messageBox__body"><hr /></div>
+                <div class="messageBox__buttons"></div>
+            </div>
+        </div>
+
+        <div id="loadMask" class="fullscreen">
+
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+                integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+                crossorigin="anonymous"></script>
+        <script src="ONEAPI/ETL.js"></script>        
+        <script src="JAFF/JavaScript/Core.js"></script>
+        <script src="Demo.js"></script>
+    </body>
+</html>
