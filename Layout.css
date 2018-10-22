@@ -4,14 +4,30 @@ body {
     font-family: 'Ubuntu', sans-serif;
 }
 
-#mainContainer {
-    background-image: url(Assets/Backgrounds/bg01.jpg);
+.panel {
+    background-image: url(Assets/Backgrounds/bg04_Panel.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.topbar 
+{
+    background-image: url(Assets/Backgrounds/bg04_Panel.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#mainContainer {
+    background-image: url(Assets/Backgrounds/bg04.jpg);
+    background-size: cover;
+    padding-top:60px;
 }
 
 #loginMask
 {
-    background-image:url(Assets/Backgrounds/bg01_Blur.jpg);
+    background-image:url(Assets/Backgrounds/bg04_Blur.jpg);
     background-size:cover;
 }
 #loadMask

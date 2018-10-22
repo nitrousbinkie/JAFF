@@ -11,22 +11,45 @@
     <body>
 
         <div id="mainContainer" class="fullscreen">
-
+            <div class="container">
+                <div class="row">
+                    <div class="panel column-lg-12">
+                        <div>Status</div>
+                        <div><hr /></div>
+                        <div id="divStatusGraph">Loading... Just a sec...</div>                       
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="panel column-lg-6">
+                        <div>Data Stats</div>
+                        <div><hr /></div>
+                        <div id="divStatPanelUploads"></div>
+                        <div id="divStatPanelCalls"></div>
+                        <div id="divStatPanelOutcomes"></div>
+                        <div id="divTimeToCall"></div>
+                    </div>
+                    <div class="panel column-lg-6">
+                        <div>Find Customer</div>
+                        <div><hr/></div>
+                    </div>
+                </div>               
+            </div>
         </div>
 
         <div id="loginMask" class="fullscreen">
             <div id="loginBox" class="messageBox">
                 <div>Hello There!</div>
-                <div><input type="text" id="txtUsername" placeholder="Username" value="JamesSumner"/></div>
-                <div><input type="password" id="txtPassword" placeholder="Password" value="Password1"/></div>
-                <div><input type="text" id="txtClientId" placeholder="Client Id" value="11416"/></div>
-                <div><input type="text" id="txtAccessToken" placeholder="Access Token" value="51A99383-80A7-4715-BB64-749635C2720B"/></div>
+                <div><input type="text" id="txtUsername" placeholder="Username" /></div>
+                <div><input type="password" id="txtPassword" placeholder="Password" /></div>
+                <div><input type="text" id="txtClientId" placeholder="Client Id" /></div>
+                <div><input type="text" id="txtAccessToken" placeholder="Access Token" /></div>
                 <div><button id="btnLogin">Login</button></div>
             </div>
         </div>
 
         <div class="topbar">
             Dash-Bored!
+            <div style="float:right;" id="btnLogout">Logout</div>
         </div>
 
         <div id="messageBoxMask" class="mask fullscreen">
@@ -40,6 +63,8 @@
                 <div class="messageBox__buttons"></div>
             </div>
         </div>
+       
+        <div id="divToolTip" class="tooltip">Tooltip</div>
 
         <div id="loadMask" class="fullscreen">
 
@@ -48,8 +73,11 @@
         <script src="https://code.jquery.com/jquery-3.3.1.min.js"
                 integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
                 crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
         <script src="ONEAPI/ETL.js"></script>        
         <script src="JAFF/JavaScript/Core.js"></script>
+        <script src="ETLDashboard/ETLDashboard.js"></script>
+        <script src="ETLDashboard/Doughnut.js"></script>
         <script src="Demo.js"></script>
     </body>
 </html>
